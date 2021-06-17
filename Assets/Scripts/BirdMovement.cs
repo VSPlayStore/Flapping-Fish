@@ -8,11 +8,14 @@ public class BirdMovement : MonoBehaviour
 {
     public Button restart;
     private Rigidbody2D rb;
-    // Start is called before the first frame update
+    private Animator animator;
+    public AudioSource fly, death;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         restart.gameObject.SetActive(false);
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -20,7 +23,14 @@ public class BirdMovement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            fly.Play();
+            animator.SetBool("fly", true);
+            animator.SetBool("glide", false);
             rb.velocity = new Vector3(0, 50, 0);
+        } else
+        {
+            animator.SetBool("fly", false);
+            animator.SetBool("glide", true);
         }
     }
 
@@ -28,6 +38,7 @@ public class BirdMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Pipe"))
         {
+            death.Play();
             rb.bodyType = RigidbodyType2D.Static;
             Time.timeScale = 0;
             restart.gameObject.SetActive(true);
