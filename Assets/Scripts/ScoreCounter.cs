@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ScoreCounter : MonoBehaviour
@@ -7,5 +5,9 @@ public class ScoreCounter : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Score.score++;
+        if(Score.highScore <= Score.score)
+        {
+            Score.highScore = Score.score;
+        }
     }
 }
