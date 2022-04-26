@@ -6,6 +6,7 @@ public class Score : MonoBehaviour
     public static int score = 0;
     public static int highScore = 0;
     public Text highScoreText;
+    public Text scoreText;
 
     private void Start()
     {
@@ -21,7 +22,7 @@ public class Score : MonoBehaviour
 
     private void Update()
     {
-        GetComponent<Text>().text = "Score : " + score.ToString();
+        scoreText.text = "Score : " + score.ToString();
         highScoreText.text = "High Score : " + highScore.ToString();
         SaveHighScore();
     }

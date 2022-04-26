@@ -741,6 +741,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -2530,6 +2531,88 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Flappy Bird_66: 5316280331906963667
+      Flappy Bird_28: -2915684003741901922
+      Flappy Bird_48: -3672413974594913852
+      Flappy Bird_16: -5904507291041738111
+      Flappy Bird_38: 6785949795417106062
+      Flappy Bird_18: 3157873012993254362
+      Flappy Bird_39: -7728538386442446415
+      Flappy Bird_78: -1272887484664391346
+      Flappy Bird_59: -398217005255650217
+      Flappy Bird_76: -6462098148146943020
+      Flappy Bird_43: -4643982943969662145
+      Flappy Bird_67: -3659440945728009773
+      Flappy Bird_46: 6194730222610762779
+      Flappy Bird_61: 7477701080624917004
+      Flappy Bird_36: -4864208168190826613
+      Flappy Bird_63: -5358749613119842127
+      Flappy Bird_3: -8622101019761945102
+      Flappy Bird_58: 6049144071520135092
+      Flappy Bird_68: -792033963673402084
+      Flappy Bird_55: 7600787858627508861
+      Flappy Bird_23: -3850102520140444024
+      Flappy Bird_56: -4680405258918244511
+      Flappy Bird_2: -8914922527172755814
+      Flappy Bird_27: -1780144985068648008
+      Flappy Bird_29: 3856285495568662457
+      Flappy Bird_13: 4631645567548050731
+      Flappy Bird_32: -2863547085622101388
+      Flappy Bird_54: -7962704688971183501
+      Flappy Bird_22: 4894548267628632914
+      Flappy Bird_11: 1379657158162729802
+      Flappy Bird_8: 2647696557950214308
+      Flappy Bird_12: -715180249054196061
+      Flappy Bird_69: 1572699782288078504
+      Flappy Bird_80: -8877030183411966619
+      Flappy Bird_31: 6753506287879428692
+      Flappy Bird_41: -2691830064563988142
+      Flappy Bird_64: 5056057774624561505
+      Flappy Bird_45: 1574530624512243849
+      Flappy Bird_60: -4212475882617227706
+      Flappy Bird_24: -5732277443466226632
+      Flappy Bird_30: -8521441074487732660
+      Flappy Bird_25: -7410111932171448892
+      Flappy Bird_44: -275044400106471404
+      Flappy Bird_20: -4647854608938819787
+      Flappy Bird_79: -267127732144166100
+      Flappy Bird_10: -8563899637322571298
+      Flappy Bird_72: -8086439053109580084
+      Flappy Bird_21: -1763151736968470954
+      Flappy Bird_26: 2393118374567699280
+      Flappy Bird_75: -2733914774647242455
+      Flappy Bird_15: 4826852666758007795
+      Flappy Bird_71: 4495596067219792858
+      Flappy Bird_62: -8883395789187197688
+      Flappy Bird_4: -5772435738820150785
+      Flappy Bird_57: -5593725967075235298
+      Flappy Bird_53: -4177235052466015877
+      Flappy Bird_9: 3979460076894574035
+      Flappy Bird_47: -8251216868444244599
+      Flappy Bird_51: -6867803800190629706
+      Flappy Bird_52: 5596210232745214625
+      Flappy Bird_65: -8404106759600213603
+      Flappy Bird_73: -1443558961995121291
+      Flappy Bird_0: 6012313397494643711
+      Flappy Bird_49: -4806666722809169807
+      Flappy Bird_14: -7164935948802071421
+      Flappy Bird_37: -6834941868913601505
+      Flappy Bird_42: -3030088037560370325
+      Flappy Bird_35: -1407624656945823627
+      Flappy Bird_70: -66828107717173552
+      Flappy Bird_40: 6587135301159894889
+      Flappy Bird_50: -4700003735421641100
+      Flappy Bird_7: -68570093266957767
+      Flappy Bird_17: 7426828937797892807
+      Flappy Bird_6: 1855226557414960513
+      Flappy Bird_1: -4061047831220798045
+      Flappy Bird_74: 8702105076446728058
+      Flappy Bird_33: 8360343725100061614
+      Flappy Bird_19: -1891860658522929726
+      Flappy Bird_5: 1031046408293561145
+      Flappy Bird_77: -5294325685729362427
+      Flappy Bird_34: 659952162828938972
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
